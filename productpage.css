@@ -89,10 +89,10 @@ body {
 }
 
 .landing-title-image {
-	padding-top: 180px;
+	padding-top: 100px;
 }
 
-.landing-title img {
+.landing-title-image img {
 	width: 100%;
 	height: auto;
 }
@@ -114,7 +114,7 @@ body {
 }
 
 .painpoint-title {
-	margin-top: 120px;
+	margin-top: 30px;
 }
 
 .painpoint-title h3{
@@ -228,7 +228,7 @@ body {
 	letter-spacing: 0.5px;
 	color: white;
 	box-shadow: 0px 3px 10px 0px rgb(202,213,228);
-
+	border-radius: 4px;
 }
 
 .btn-function {
@@ -239,7 +239,8 @@ body {
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: rgb(0,175,253);
-	box-shadow: inside 1px (rgb(0,191,240) , rgb(0,175,253));
+	border: 1px solid rgb(0,175,253);
+	border-radius: 4px;
 }
 
 .cx-intro3 {
@@ -276,15 +277,16 @@ body {
   background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
-	padding: 25px 10px;
+	padding: 25px 40px;
 	margin: 0;
 }
 
 .panel-heading h4 {
-	font-size: 42px;
+	font-size: 36px;
 	line-height: 52px;
 	letter-spacing: 0.4px;
 	color: white;
+	white-space:nowrap;
 }
 
 .panel-body {
