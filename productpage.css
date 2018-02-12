@@ -72,6 +72,11 @@ body {
 	padding-top: 180px;
 }
 
+.landing-title img {
+	width: 100%;
+	height: auto;
+}
+
 .landing-title1 {
 	text-align: center;
 	font-size: 24px;
@@ -214,7 +219,7 @@ body {
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: rgb(0,175,253);
-	border: inside 1px (rgb(0,191,240) , rgb(0,175,253));
+	box-shadow: inside 1px (rgb(0,191,240) , rgb(0,175,253));
 }
 
 .cx-intro3 {
@@ -231,53 +236,57 @@ body {
 	line-height: 28px;
 	letter-spacing: 0.5px;
 	margin-top: 30px;
+	padding-right: 140px;
+	font-weight: lighter;
 }
 
 .cx-intro3 p {
 	font-size: 14px;
 	line-height: 22px;
 	letter-spacing: 0.6px;
-	margin-top: 25px;
 }
 
-.page-header {
-	background: rgb(192,192,192);
+.panel {
+	box-shadow: 0px 6px 20px 5px rgba(86,101,116,0.17);
+	padding: 0;
+}
+.panel-heading {
+	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
 	padding: 25px 10px;
 	margin: 0;
 }
 
-.page-header h4 {
-	font-size: 18px;
-	line-height: 28px;
-	letter-spacing: 0.5px;
-	font-weight: lighter;
+.panel-heading h4 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 0.4px;
+	color: white;
+}
+
+.panel-body {
+	height: 500px;
+}
+
+.panel-footer {
+	background: white;
+	border-top: 0px;
+	text-align: center;
+	padding-bottom: 40px;
 }
 
 .title {
 	padding: 15px 0px 0px 55px;
 }
 
-.page-content {
-	background: rgb(235,235,235);
-	padding: 100px 50px;
-}
-
-.page-content-1 {
-	padding: 4px 0;
-	font-size: 14px;
-	line-height: 18px;
-	letter-spacing: 0.4px;
-}
-
-.page-footer {
-	background: rgb(192,192,192);
-	text-align: center;
-	height: 70px;
-}
-
-.page-footer button {
-	padding: 11px 38px;
-	background: rgb(192,192,192);
+.panel-footer button {
+	padding: 27px 144px;
+	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 0.5px;
@@ -301,6 +310,7 @@ body {
 
 .logo {
 	text-align: left;
+	padding-left: 125px;
 }
 .cover-photo img {
 	height: auto;
@@ -419,9 +429,31 @@ body {
 }
 
 .footer {
-	height: 50px;
+	height: 300px;
 	width: 100%;
-	background: rgb(235,235,235);
+	background: rgb(235,240,247);
+}
+
+.footer ul {
+	list-style-type: none;
+	padding-left: 0px;
+}
+
+.footer li {
+	margin-top: 25px;
+}
+
+.footer a {
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.4px;
+	color: rgb(0,175,253);
+}
+
+.footer img {
+	height: 25px;
+	width: 38px;
+	margin-top: 50px;
 }
 
 /* applypage */
@@ -523,9 +555,57 @@ body {
   .apply-text {
   	padding: 0 15px;
   }
+
+  .landing-title {
+  	text-align: center;
+  }
+
+  .landing-title h1 {
+  	font-size: 42px;
+  	line-height: 52px;
+  	letter-spacing: 1px;
+  }
+
+  .landing-title p {
+  	font-size: 24px;
+  	line-height: 34px;
+  	letter-spacing: 0.8px;
+  	font-weight: lighter;
+  	padding: 0 140px;
+  }
+
+  .landing-title span {
+  	font-size: 42px;
+  	line-height: 52px;
+  	letter-spacing: 1px;
+  }
+
+  .cx-intro1 {
+  	padding: 0px 150px;
+  }
+
+  .cx-intro3 h4 {
+  	text-align: center;
+  }
+
+  .cx-intro3 h5 {
+  	padding: 0px 50px;
+  }
+
+  .panel {
+  	margin-top: 20px;
+  }
+
+  .footer-link {
+  	margin-left: 50px;
+  }
 }
 
 @media (min-width: 375px) and (max-width: 767px) {
+
+	.navlink1 {
+		padding-left: 46px;
+	}
 
 	.navlink2 a{
 		padding: 8px 23px;
@@ -590,6 +670,27 @@ body {
   	padding: 0px 15px;
   }
 
+  .cx-intro2 h4 {
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		color: rgb(2,12,15);
+		text-align: center;
+		font-weight: lighter;
+		margin-top: 25px;
+  }
 
+  .intro2-button {
+  	text-align: center;
+  	padding-left: 8px;
+  }
+
+	.cx-intro3 h5 {
+		padding: 0px;
+	}
+
+	.footer-link {
+  	margin-left: 60px;
+  }
   
 }
