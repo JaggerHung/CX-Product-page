@@ -156,6 +156,10 @@ body {
 	padding: 15px 24px;
 }
 
+.painpoint {
+	margin-top: 80px;
+}
+
 .cx-intro {
 	margin-top: 145px;
 	text-align: center;
@@ -189,6 +193,10 @@ body {
 
 .cx-intro1 {
 	margin-top: 70px;
+}
+
+.media-body {
+	vertical-align: middle;
 }
 
 .cx-intro1 p {
@@ -243,16 +251,16 @@ body {
 	border-radius: 4px;
 }
 
-.cx-intro3 {
+.free-trial {
 	margin-top: 120px;
 }
-.cx-intro3 h4 {
+.free-trial h4 {
 	font-size: 42px;
 	line-height: 52px;
 	letter-spacing: 1px;
 }
 
-.cx-intro3 h5 {
+.free-trial h5 {
 	font-size: 18px;
 	line-height: 28px;
 	letter-spacing: 0.5px;
@@ -261,7 +269,7 @@ body {
 	font-weight: lighter;
 }
 
-.cx-intro3 p {
+.free-trial p {
 	font-size: 14px;
 	line-height: 22px;
 	letter-spacing: 0.6px;
@@ -361,6 +369,7 @@ body {
 
 .title2 {
 	margin-top: 115px;
+	padding-left: 100px;
 }
 .title2 h2 {
 	font-size: 42px;
@@ -373,7 +382,7 @@ body {
 	line-height: 34px;
 	letter-spacing: 0.8px;
 	text-align: left;
-	padding: 30px 0 0 0;
+	padding: 30px 150px 0 0;
 }
 
 .main-function img {
@@ -381,6 +390,14 @@ body {
 	width: 100%;
 }
 
+.upload {
+	margin-left: 50px;
+}
+
+.upload li {
+	list-style-type: none;
+	display: inline;
+}
 .upload span {
 	font-size: 18px;
 	line-height: 26px;
@@ -618,15 +635,11 @@ body {
   	letter-spacing: 1px;
   }
 
-  .cx-intro1 {
-  	padding: 0px 150px;
-  }
-
-  .cx-intro3 h4 {
+  .free-trial h4 {
   	text-align: center;
   }
 
-  .cx-intro3 h5 {
+  .free-trial h5 {
   	padding: 0px 50px;
   }
 
@@ -636,6 +649,10 @@ body {
 
   .footer-link {
   	margin-left: 50px;
+  }
+
+  .media {
+  	padding: 10px 200px;
   }
 }
 
@@ -727,12 +744,16 @@ body {
   	padding-left: 8px;
   }
 
-	.cx-intro3 h5 {
+	.free-trial h5 {
 		padding: 0px;
 	}
 
 	.footer-link {
   	margin-left: 60px;
+  }
+
+  .media {
+  	padding: 10px 40px;
   }
   
 }

@@ -8,7 +8,8 @@
     <title>我的產品</title>
 
     <!-- Bootstrap -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="productpage.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -19,57 +20,69 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <div class="navbar1">
+    <div class="navbar1">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-10 col-md-10 col-sm-8 col-xs-4 logo">
-            <img src="" width="30" height="24">
+          <div class="col-lg-6 col-md-6 nav-logo hidden-sm hidden-xs">
+            <img src="asset/cxlogo.png" width="263" height="25">
           </div>
-          <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">功能</div>
-          <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">免費試用</div>       
+          <div class="col-sm-4 hidden-lg hidden-md hidden-xs nav-logo">
+            <img src="asset/cx-middle-logo.png" width="105">
+          </div>
+          <div class="hidden-lg hidden-md hidden-sm col-xs-2" style="text-align: center; padding-left: 35px;">
+          <img src="asset/cx-little-logo.png" width="33">
+        </div>
+          <div class="col-lg-6 col-md-6 col-sm-8 col-xs-10 nav-link">
+            <ul>
+              <li class="navlink1"><a href="">探索功能</a></li>
+              <li class="navlink2"><a href="">免費體驗</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
-    <div class="row">
-      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
-        <div class="cover-photo">
-          <img src="asset/coever-photo.jpg">
+    <div>
+      <div class="row">
+        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+          <div class="cover-photo">
+            <img src="asset/coever-photo.jpg">
+          </div>
         </div>
       </div>
     </div>
     <div class="container strength">
       <div class="row">
         <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12" style="padding-top: 60px">
-          <p class="title">輕鬆紀錄比賽影片和數據，即時存取，隨時觀看</p>
+          <p class="title">快速整合數據和影片，即時存取，隨時觀看</p>
         </div>
         <div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 strength1" style="padding-top: 115px; text-align: center;">
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-4">
-                <img src="asset/1.png">
+                <img src="asset/strength.png">
               </div>
               <div class="col-md-12 col-sm-12 col-xs-8">
-                <p>手機APP錄影和直播，影片即時上傳，雲端保存。</p>
+                <p>使用任一行動裝置開啟球學平台上的數據紀錄工具，場上每個動作都能即時記載，搭配球學APP(產品名)錄影或直播，同步完成數據紀錄與影片上傳，每場比賽都不錯過。</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 strength2" style="padding-top: 115px; text-align: center;">
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-4">
-                <img src="asset/2.png">
+                <img src="asset/strength.png">
               </div>
               <div class="col-md-12 col-sm-12 col-xs-8">
-                <p>透過手機、平板或電腦完整記錄，即時視覺化攻守數據，讓你一目瞭然，更能長期累計球隊比賽資料。</p>
+                <p>輕鬆管理我的球隊影片，觀看自動剪輯出的分段影片。</p>
               </div>
             </div>
           </div>
           <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 strength3" style="padding-top: 115px; text-align: center;">
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-4">
-                <img src="asset/2.png">
+                <img src="asset/strength.png">
               </div>
               <div class="col-md-12 col-sm-12 col-xs-8">
-                <p>快速整合比賽影片和數據，即時產出比賽Play by play，讓球隊隨時都能用手機觀看。</p>
+                <p>每場比賽所紀錄的數據和影片都能依照賽季與場次管理，永久保存所有資料，透過行動裝置就能隨時隨地檢視。</p>
               </div>
             </div>
           </div>
@@ -78,31 +91,47 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="title2">
-          <div class="col-md-2"></div>
-          <div class="col-md-6"">
-            <h2>輕鬆紀錄比賽影片和數據，即時存取，隨時觀看</h2>
-            <p>一支手機，輕鬆搞定錄影、直播、上傳，雲端永久保存。</p>
+        <div class="col-md-12">
+          <div class="title2">
+            <h2>開啟一場比賽紀錄</h2>
+            <p>在球隊管理功能中，能夠自行新增任何想要紀錄的比賽。接著點擊「數據控制」按鈕進入即時數據紀錄介面，選擇上場球員，就能輕鬆開始一場比賽。</p>
           </div>
-          <div class="col-md-4"></div>
         </div>  
       </div>
     </div>
     <div class="container" style="margin-top: 65px">
       <div class="row">
         <div class="main-function col-lg-12 col-md-12 col-sm-12">
-          <img class="img1" src="asset/coever-photo.jpg">
+          <img class="img1" src="asset/title2-image.png">
         </div>
-        <div class="upload">
-          <div class="col-md-6 col-sm-6" style="text-align: center; margin-top: 50px;">
-            <span class="glyphicon glyphicon-search" aria-hidden="true">
-              <span>影片即時上傳，雲端保存。</span>
-            </span>
-          </div>
-          <div class="col-md-6 col-sm-6" style="text-align: center; margin-top: 50px;">
-            <span class="glyphicon glyphicon-search" aria-hidden="true">
-              <span>影片即時上傳，雲端保存。</span>
-            </span>
+        <div class="col-md-12">
+          <div class="upload">
+            <div class="row">
+              <div class="col-md-3">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="asset/title2-image2.png">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>觀看比賽同步即時數據</p>
+                   </div>
+                </div>
+              </div>
+              <div class="col-md-3">
+                <div class="media">
+                  <div class="media-left">
+                    <a href="#">
+                      <img src="asset/title2-image2.png">
+                    </a>
+                  </div>
+                  <div class="media-body">
+                    <p>觀看比賽同步即時數據</p>
+                   </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -114,18 +143,30 @@
             <img src="asset/4.jpg">
           </div>
           <div class="col-md-6 col-sm-6 function1-sub">
-            <h1>輕鬆紀錄比賽影片和數據，即時存取，隨時觀看</h1>
-            <p style="padding-top: 30px; margin-right: 100px;">一支手機，輕鬆搞定錄影、直播、上傳，雲端永久保存。</p>
-          </div>
-          <div class="col-md-6 col-sm-6 function1-sub1">
-            <span class="glyphicon glyphicon-search" aria-hidden="true">
-              <span>影片即時上傳，雲端保存。</span>
-            </span>
-          </div>
-          <div class="col-md-6 col-sm-6 function1-sub2">
-            <span class="glyphicon glyphicon-search" aria-hidden="true">
-              <span>影片即時上傳，雲端保存。</span>
-            </span>
+            <div class="function1-sub-text">
+              <h1>數據視覺化</h1>
+              <p style="padding-top: 30px; margin-right: 100px;">支援手機 / 平板紀錄，長期累計，圖像呈現球隊數據，階段性回顧，找出比賽關鍵。</p>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img src="asset/title2-image2.png">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>兩分/三分/罰球命中率 圓餅圖呈現</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img src="asset/title2-image2.png">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>兩隊數據比較</p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -134,17 +175,29 @@
       <div class="row">
         <div class="function2">
           <div class="col-md-6 col-sm-6 function2-sub">
-            <h1>輕鬆紀錄比賽影片和數據，即時存取，隨時觀看</h1>
-            <p style="padding-top: 30px; margin-right: 100px;">一支手機，輕鬆搞定錄影、直播、上傳，雲端永久保存。</p>
-            <div>
-              <span class="glyphicon glyphicon-search" aria-hidden="true">
-               <span>影片即時上傳，雲端保存。</span>
-              </span>
+            <div class="function2-sub-text">
+              <h1>觀看、篩選及管理分段影片</h1>
+              <p style="padding-top: 30px; margin-right: 100px;">根據需求篩選想要觀看的動作，無論籃板、失誤、得分、助攻等皆能找到相對的分段影片。</p>
             </div>
-            <div>
-              <span class="glyphicon glyphicon-search" aria-hidden="true">
-               <span>影片即時上傳，雲端保存。</span>
-              </span>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img src="asset/title2-image2.png">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>可根據節次、隊伍、球員、動作篩選</p>
+              </div>
+            </div>
+            <div class="media">
+              <div class="media-left">
+                <a href="#">
+                  <img src="asset/title2-image2.png">
+                </a>
+              </div>
+              <div class="media-body">
+                <p>影片即時上傳，雲端保存</p>
+              </div>
             </div>
           </div>
           <div class="col-md-6 col-sm-6 function2-photo">
@@ -153,15 +206,55 @@
         </div>
       </div>
     </div>
+     <div class="container free-trial">
+      <div class="row">
+        <div class="col-md-7 col-sm-12">
+          <h4>免費體驗，進入比賽紀錄新世代！</h4>
+          <h5>3.31前點擊「免費體驗」，就可以在 4.1-6.30 期間免費使用，讓比賽紀錄更快更輕鬆。</h5>
+          <div class="hidden-sm">
+            <button type="button" class="btn btn-default btn-trial">免費體驗</button>
+          </div>
+          <div class="hidden-sm" style="margin-top: 40px;">
+            <p style="color: rgb(240,103,83);">碰到問題了嗎？</p>
+            <p>查看FAQ或聯繫我們，我們期待能為你服務。</p>
+          </div>
+        </div>
+        <div class="col-md-5 col-sm-8 hidden-xs panel">
+          <div class="panel-heading">
+            <div class="row"> 
+              <div class="col-md-6 col-sm-6">
+                <h4>免費體驗</h4>
+              </div>
+              <div class="col-md-6 col-sm-6" style="padding-left: 40px;">
+                <h4>NT$ 0元</h4>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+          </div>
+          <div class="panel-footer">
+            <button>免費體驗</button>
+          </div>
+        </div>
+      </div>
+    </div>
     <footer class="footer" style="margin-top: 160px;">
-      <div class="col-md-12"></div>
+      <div class="container">
+        <div class="footer-link">
+          <img src="asset/cx-little-logo.png">
+          <ul>
+            <li><a href="">首頁</a></li>
+            <li><a href="">探索功能</a></li>
+            <li><a href="">免費體驗</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
-
-
  
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+   <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
