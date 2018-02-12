@@ -1,0 +1,595 @@
+@import url(https://fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Noto Sans TC', sans-serif;
+}
+
+/* navbar */
+
+.navlink1 a{
+	color: rgb(0,175,253);
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.4px;
+}
+
+.navlink2 a {
+	color: rgb(255,255,255);
+	padding: 13px 38px;
+	background: rgb(0,175,253);
+	font-size: 18px;
+	line-height: 22px;
+	letter-spacing: 0.4px;
+	border-radius: 4px;
+	fill: rgb(0,191,240);
+}
+
+/* landingpage */
+
+.landing-title {
+	margin-top: 100px;
+}
+
+.landing-title h1{
+	font-size: 72px;
+	line-height: 96px;
+	letter-spacing: 1.7px;
+	color: rgb(0,175,253);
+	font-weight: bold;
+}
+
+.landing-title span{
+	font-size: 72px;
+	line-height: 96px;
+	letter-spacing: 1.7px;
+	color: rgb(240,103,83);
+}
+
+.landing-title p{
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	color: rgb(2,12,15);
+	margin-top: 20px;
+	padding-right: 30px;
+}
+
+.btn-leavetime {
+	margin-top: 80px;
+	padding: 18px 45px;
+	font-size: 18px;
+	font-weight: bold;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: rgb(0,175,253);
+	border-radius: 4px;
+	border: 1px solid rgb(0,175,253);
+}
+
+.landing-title-image {
+	padding-top: 180px;
+}
+
+.landing-title1 {
+	text-align: center;
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.8px;
+	margin-top: 60px;
+}
+
+.landing-title2 {
+	text-align: center;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+	margin-top: 200px;
+}
+
+.painpoint-title {
+	margin-top: 120px;
+}
+
+.painpoint-title h3{
+	text-align: center;
+	font-size: 30px;
+	line-height: 39px;
+	letter-spacing: 1.1px;
+	font-weight: normal;
+}
+
+.painpoint {
+	text-align: center;
+	margin-top: 80px;
+}
+
+.painpoint h3 {
+	font-size: 30px;
+	line-height: 39px;
+	letter-spacing: 1.1px;
+	color: rgb(2,12,15);
+	font-weight: lighter;
+}
+
+.painpoint h4 {
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+
+.painpoint p {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	margin: 0 30px;
+}
+
+.painpoint img {
+	padding: 15px 24px;
+}
+
+.cx-intro {
+	margin-top: 145px;
+	text-align: center;
+}
+
+.cx-intro h4 {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.cx-intro p {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+}
+
+.intro-photo {
+	padding: 8px 14px;
+}
+
+.intro-photo img {
+	width: 100%;
+	height: auto;
+}
+
+.intro-text {
+	padding: 11px 25px;
+}
+
+.cx-intro1 {
+	margin-top: 70px;
+}
+
+.cx-intro1 p {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.6px;
+}
+
+.cx-intro2 {
+	margin-top: 110px;
+}
+
+.cx-intro2 h4 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+	text-align: left;
+	font-weight: bold;
+	margin-top: 0px;
+}
+
+.intro2-photo img {
+	height: auto;
+	width: 100%;
+}
+
+.btn-trial {
+	opacity:0.9;
+	padding: 13px 38px;
+	margin-top: 40px;
+	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: white;
+	box-shadow: 0px 3px 10px 0px rgb(202,213,228);
+
+}
+
+.btn-function {
+	padding: 13px 38px;
+	margin-left: 15px;
+	margin-top: 40px;
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: rgb(0,175,253);
+	border: inside 1px (rgb(0,191,240) , rgb(0,175,253));
+}
+
+.cx-intro3 {
+	margin-top: 120px;
+}
+.cx-intro3 h4 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+}
+
+.cx-intro3 h5 {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	margin-top: 30px;
+}
+
+.cx-intro3 p {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.6px;
+	margin-top: 25px;
+}
+
+.page-header {
+	background: rgb(192,192,192);
+	padding: 25px 10px;
+	margin: 0;
+}
+
+.page-header h4 {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+}
+
+.title {
+	padding: 15px 0px 0px 55px;
+}
+
+.page-content {
+	background: rgb(235,235,235);
+	padding: 100px 50px;
+}
+
+.page-content-1 {
+	padding: 4px 0;
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.4px;
+}
+
+.page-footer {
+	background: rgb(192,192,192);
+	text-align: center;
+	height: 70px;
+}
+
+.page-footer button {
+	padding: 11px 38px;
+	background: rgb(192,192,192);
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	margin-top: 15px;
+	border: 0px;
+	font-size: 18px;
+	letter-spacing: -0.2px;
+	text-align: center;
+	color: rgb(255,255,255);
+}
+
+/* featurepage */
+.navbar1 {
+	height: 100px;
+}
+
+.navbar1 .row {
+	padding-top: 52px;
+	text-align: center;
+}
+
+.logo {
+	text-align: left;
+}
+.cover-photo img {
+	height: auto;
+	width: 100%;
+}
+
+.strength .title {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.8px;
+	text-align: center;
+}
+
+.strength-img {
+	text-align: center;
+}
+
+.strength p {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	padding: 30px 20px 0px 20px;
+}
+
+.title2 {
+	margin-top: 115px;
+}
+.title2 h2 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+}
+
+.title2 p {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.8px;
+	text-align: left;
+	padding: 30px 0 0 0;
+}
+
+.main-function img {
+	height: auto;
+	width: 100%;
+}
+
+.upload span {
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+}
+
+.function1-photo img {
+	height: 700px;
+	width: 100%;
+
+}
+.function1 h1 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+
+}
+.function1 p {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.8px;
+	
+}
+
+.function1-sub1 span {
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	margin-top: 50px;
+}
+
+.function1-sub2 span {
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	margin-top: 50px;
+}
+
+.function2-photo img {
+	height: 700px;
+	width: 100%;
+
+}
+.function2 h1 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+
+}
+.function2 p {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.8px;
+	
+}
+
+.function2-sub1 span {
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	margin-top: 50px;
+}
+
+.function2-sub span {
+	font-size: 18px;
+	line-height: 26px;
+	letter-spacing: 0.4px;
+	margin-top: 50px;
+}
+
+.footer {
+	height: 50px;
+	width: 100%;
+	background: rgb(235,235,235);
+}
+
+/* applypage */
+
+.apply-text {
+	padding-left: 125px;
+}
+
+.apply-text h1 {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 1px;
+}
+
+.apply-text h2 {
+	font-size: 18px;
+	line-height: 28px;
+	line-height: 0.5px;
+	font-weight: lighter;
+}
+
+.apply-text h4 {
+	font-size: 14px;
+	line-height: 22px;
+	letter-spacing: 0.6px;
+	font-weight: normal;
+}
+
+.apply-form-header {
+	background: rgb(192,192,192);
+	padding: 15px 10px;
+	margin: 0;
+}
+
+.apply-form-header h4 {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+}
+
+.apply-form-content {
+	background: rgb(235,235,235);
+	padding: 20px 50px;
+}
+
+.apply-form-content h4 {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+}
+
+.apply-page-content {
+	margin-top: 110px;
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+
+	/* landing page */
+	.landing-title2 {
+		margin-top: 150px;
+	}
+	
+	.painpoint3 {
+		margin-top: 50px;
+	}
+
+	.painpoint3 p {
+		margin: 0 200px;
+	}
+
+	.cx-intro p {
+		margin: 0 90px;
+	}
+	/* featurepage */
+  .strength3 {
+  	text-align: center;
+  	padding: 0 220px;
+  }
+  
+  .title2 {
+  	margin-top: 80px;
+  	padding: 0px 125px;
+  }
+
+  .intro-text {
+  	padding: 20px 25px 0px 25px;
+  }
+
+  .intro-photo {
+  	margin-top: 10px;
+  }
+
+  .intro2-photo {
+  	text-align: center;
+  }
+
+  .apply-text {
+  	padding: 0 15px;
+  }
+}
+
+@media (min-width: 375px) and (max-width: 767px) {
+
+	.navlink2 a{
+		padding: 8px 23px;
+		font-size: 18px;
+		line-height: 24px;
+		letter-spacing: 0.5px;
+		background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
+    box-shadow: 0px 3px 10px 0px rgb(202,213,228);
+	}
+
+	.landing-title {
+		text-align: center;
+		margin-top: 65px;
+	}
+
+	.landing-title h1{
+		font-size: 42px;
+		line-height: 52px;
+		letter-spacing: 1px;
+		color: rgb(0,175,253);
+		font-weight: bold;
+		margin: 3px 0px;
+	}
+
+	.landing-title span{
+		font-size: 42px;
+		line-height: 52px;
+		letter-spacing: 1px;
+		color: rgb(240,103,83);
+	}
+
+	.landing-title p {
+		padding: 0px 10px;
+		font-weight: lighter;
+	}
+	
+	.btn-function {
+		margin-left: 3px;
+	}
+	
+	.painpoint-title h3 {
+		text-align: left;
+	}
+
+  .paintpoint1 {
+  	margin-top: 90px;
+  }
+
+  .painpoint2 {
+  	margin-top: 90px;
+  }
+
+  .painpoint3 {
+  	margin-top: 90px;
+  }
+
+  .apply-text {
+  	text-align: center;
+  	padding: 0px 15px;
+  }
+
+
+  
+}
