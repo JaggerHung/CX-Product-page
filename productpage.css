@@ -249,6 +249,7 @@ body {
 .panel {
 	box-shadow: 0px 6px 20px 5px rgba(86,101,116,0.17);
 	padding: 0;
+	margin-left: 0px;
 }
 .panel-heading {
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
