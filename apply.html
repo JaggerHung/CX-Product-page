@@ -8,7 +8,8 @@
     <title>我的產品</title>
 
     <!-- Bootstrap -->
-    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="productpage.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -19,46 +20,55 @@
     <![endif]-->
   </head>
   <body>
-    <div class="container">
-      <div class="navbar1">
+    <div class="navbar1">
+      <div class="container">
         <div class="row">
-          <div class="col-lg-10 col-md-10 col-sm-8 col-xs-4 logo">
-            <img src="" width="30" height="24">
+          <div class="col-lg-7 col-md-7 nav-logo hidden-sm hidden-xs">
+            <a href="landing.html"><img src="asset/cxlogo.png" width="263" height="25"></a>
           </div>
-          <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">功能</div>
-          <div class="col-lg-1 col-md-1 col-sm-2 col-xs-4">免費試用</div>       
+          <div class="col-sm-6 hidden-lg hidden-md hidden-xs nav-logo">
+            <a href="landing.html"><img src="asset/cx-middle-logo.png" width="105"></a>
+          </div>
+          <div class="hidden-lg hidden-md hidden-sm col-xs-2" style="text-align: center; padding-left: 35px;">
+            <a href="landing.html"><img src="asset/cx-little-logo.png" width="33"></a>
+          </div>
+          <div class="col-lg-5 col-md-5 col-sm-6 col-xs-10 nav-link">
+            <ul>
+              <li class="navlink1"><a href="feature.html">探索功能</a></li>
+              <li class="navlink2"><a href="apply.html">免費體驗</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
+
     <div class="container apply-page-content">
       <div class="row">
-        <div class="col-md-6 col-sm-5 apply-text">
+
+        <div class="col-md-6 col-sm-12 apply-text">
           <div>
-            <h1>留下你的聯絡方式，我們會盡快與你聯繫。</h1>
+            <h1>免費體驗，進入比賽紀錄新世代！</h1>
           </div>
           <div style="margin-top: 20px;">
-            <h2>開放 30 支球隊試用機會</h2>
+            <h2>回答幾個問題，就能免費體驗比賽紀錄工具所有功能。</h2>
           </div>
-          <div style="margin-top: 50px;">
-            <h4>點擊這裡了解更多，或聯繫我們 </h4>
+          <div class="hidden-sm hidden-xs" style="margin-top: 40px;">
+            <p style="color: rgb(240,103,83);">碰到問題了嗎？</p>
+            <p>查看FAQ或聯繫我們，我們期待能為你服務。</p>
           </div>
         </div>
-        <div class="col-md-6 col-sm-7">
-          <div class="apply-form-header">
-            <div class="row">
-              <div class="col-md-12 col-sm-12 col-xs-12">
-                <div class="row"> 
-                  <div class="col-md-10 col-sm-10 col-xs-9 title">
-                   <h4>比賽試用</h4>
-                  </div>
-                  <div class="col-md-2 col-sm-2 col-xs-3 cost">
-                    <h1>$0</h1>
-                  </div>
-                </div>
+        <div class="col-md-4 col-sm-8 panel apply-panel">          
+          <div class="panel-heading">
+            <div class="row"> 
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <h4>免費體驗</h4>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-6 price">
+                <h4>NT$ 0元</h4>
               </div>
             </div>
           </div>
-          <div class="apply-form-content">
+          <div class="panel-body">
             <div class="row">
               <div class="col-md-12 col-sm-12 col-xs-12">
                 <h4>填寫基本資料</h4>
@@ -113,19 +123,33 @@
               </div>
             </div>
           </div>
-          <div class="page-footer">
-            <button>送出</button>
+          <div class="apply">
+            <button>送出 <span class="glyphicon glyphicon-arrow-right" aria-hidden="true"></span></button>
           </div>
+        </div>
+        <div class="col-sm-12 col-xs-12 hidden-lg hidden-md faq"">
+            <p style="color: rgb(240,103,83);">碰到問題了嗎？</p>
+            <p>查看FAQ或聯繫我們，我們期待能為你服務。</p>
         </div>
       </div>  
     </div>
+
     <footer class="footer" style="margin-top: 160px;">
-      <div class="col-md-12 col-sm-12 col-xs-12"></div>
+      <div class="container">
+        <div class="footer-link">
+          <img src="asset/cx-little-logo.png">
+          <ul>
+            <li><a href="">首頁</a></li>
+            <li><a href="">探索功能</a></li>
+            <li><a href="">免費體驗</a></li>
+          </ul>
+        </div>
+      </div>
     </footer>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
