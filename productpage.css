@@ -607,13 +607,14 @@ body {
   	margin-top: 80px;
   	padding: 0px 125px;
   }
+	
 
   .intro-text {
   	padding: 20px 25px 0px 25px;
   }
 
-  .intro-photo {
-  	margin-top: 10px;
+  .cx-intro1-media {
+  	padding: 0px 150px;
   }
 
   .intro2-photo {
@@ -779,6 +780,10 @@ body {
   	padding: 0px 15px;
   }
 
+  .cx-intro1-media {
+  	padding: 0px 10px;
+  }
+
   .cx-intro2 h4 {
 		font-size: 18px;
 		line-height: 28px;
@@ -806,10 +811,6 @@ body {
 		padding: 0;
 		text-align: left;
 	}
-
-  .media {
-  	padding: 10px 40px;
-  }
 
   .title {
   	padding: 0 10px;
