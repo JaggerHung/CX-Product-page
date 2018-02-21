@@ -724,6 +724,10 @@ body {
 	.landing-title2 {
 		margin-top: 150px;
 	}
+
+	.painpoint img {
+		width: auto;
+	}
 	
 	.painpoint3 {
 		margin-top: 50px;
@@ -745,7 +749,7 @@ body {
   }
 
   .media-body p {
-  	font-size: 13px;
+  	font-size: 12px;
   }
 
 	.function {
@@ -826,7 +830,7 @@ body {
 
   .function-title h4 {
   	text-align: left;
-  	padding: 0 30px;
+  	padding: 0 100px;
   }
 
   .function-media {
@@ -849,6 +853,10 @@ body {
 
 	.apply-text {
 		padding: 30px 130px;
+	}
+
+	.faq {
+		padding: 0 130px;
 	}
 
 	.faq-title {
