@@ -200,10 +200,6 @@ body {
 	margin: 0 30px;
 }
 
-.painpoint img {
-	padding: 15px 24px;
-}
-
 .painpoint {
 	margin-top: 80px;
 }
@@ -591,7 +587,7 @@ body {
 }
 
 .apply button {
-	padding: 27px 144px;
+	padding: 20px 100px;
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
@@ -605,6 +601,7 @@ body {
 	letter-spacing: -0.2px;
 	text-align: center;
 	color: rgb(255,255,255);
+	border-radius: 4px;
 }
 
 .apply-panel {
