@@ -322,6 +322,11 @@ body {
 .free-trial {
 	margin-top: 120px;
 }
+
+.free-trial a {
+	color: rgb(240,103,83);
+}
+
 .free-trial h4 {
 	font-size: 42px;
 	line-height: 52px;
@@ -367,6 +372,13 @@ body {
 
 .panel-body {
 	height: 500px;
+}
+
+.panel-body-text p {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.5px;
+	color: rgb(0,175,253);
 }
 
 .panel-footer {
@@ -599,6 +611,96 @@ body {
 	margin-left: 60px;
 }
 
+
+/* FAQ page */
+
+.faq-title h1 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.faq-title p {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+}
+
+.faq-title a {
+	color: rgb(240,103,83);
+}
+
+.faq-content {
+	margin-top: 80px;
+	padding: 0px 200px;
+}
+
+.faq-content h1 {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+}
+
+.faq-content h4 {
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	font-weight: bold;
+}
+
+.faq-content h5 {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+}
+
+.section {
+	margin-top: 50px;
+}
+
+.answer {
+	margin-top: 20px;
+}
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) { 
+
+	.nav-link {
+		padding-left: 20px;
+	}
+
+	.apply {
+		background: white;
+		border-top: 0px;
+		text-align: center;
+		padding-bottom: 40px;
+	}
+
+	.apply button {
+		padding: 15px 85px;
+		background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+	  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+	  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+	  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
+		font-size: 18px;
+		line-height: 28px;
+		letter-spacing: 0.5px;
+		margin-top: 15px;
+		border: 0px;
+		font-size: 18px;
+		letter-spacing: -0.2px;
+		text-align: center;
+		color: rgb(255,255,255);
+	}
+
+	.panel-heading h4 {
+		font-size: 30px;
+	}
+
+}
+
 @media (min-width: 768px) and (max-width: 1024px) and (orientation : portrait) {
 
 	/* nav bar */
@@ -747,9 +849,13 @@ body {
 		padding: 30px 130px;
 	}
 
-	.faq {
-		margin-top: 40px;
-		padding-left: 130px;
+	.faq-title {
+		margin-top: 50px;
+		padding: 0 30px;
+	}
+	.faq-content {
+		margin-top: 80px;
+		padding: 0px 30px;
 	}
 
 }
@@ -968,10 +1074,14 @@ body {
 		line-height: 36px;
 		letter-spacing: 0.4px;
 	}
-
-	.faq {
-		margin-top: 40px;
-		padding-left: 30px;
+	
+	.faq-title {
+		margin-top: 30px;
+		padding: 0 30px;
+	}
+	.faq-content {
+		margin-top: 80px;
+		padding: 0px 10px;
 	}
   
 }
