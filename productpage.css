@@ -239,6 +239,14 @@ body {
 	margin-top: 70px;
 }
 
+.media {
+	margin-top: 20px;
+}
+
+.media:first-child {
+	margin-top: 20px;
+}
+
 .media-body p {
 	font-size: 18px;
 	line-height: 26px;
@@ -247,6 +255,12 @@ body {
 
 .media-body {
 	vertical-align: middle;
+	width: auto;
+}
+
+.media-left img {
+	width: 100%;
+	height: auto;
 }
 
 .cx-intro1 p {
@@ -379,9 +393,29 @@ body {
 
 /* featurepage */
 
-.cover-photo img {
-	height: auto;
-	width: 100%;
+.video {
+    width: 100%;
+    height: auto;
+}
+.wrapper{
+    display:table;
+    position:relative;
+    width:100%;
+    height: auto;
+}
+.playpause {
+    background-image:url(assets/playvideo.png);
+    background-repeat:no-repeat;
+    width:10%;
+    height:10%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
 }
 
 .strength .title {
@@ -405,6 +439,11 @@ body {
 
 .strength-img {
 	text-align: center;
+}
+
+.strength-img img {
+	width: 100%;
+	height: auto;
 }
 
 .function {
@@ -592,6 +631,14 @@ body {
 
 
 	/* featurepage */
+
+	.media-body {
+  	width: auto;
+  }
+
+  .media-body p {
+  	font-size: 13px;
+  }
 
 	.function {
 		margin-top: 150px;
@@ -859,6 +906,18 @@ body {
 
   .strength3 {
   	margin: 30px 0px;
+  }
+
+  .media-body {
+  	width: auto;
+  }
+
+  .media-body p {
+  	font-size: 12px;
+  }
+
+  .media2 {
+  	margin-top: 10px;
   }
 
   /* apply page */ 
