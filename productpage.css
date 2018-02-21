@@ -178,6 +178,11 @@ body {
 	margin-top: 80px;
 }
 
+.painpoint img {
+	width: 100%;
+	height: auto;
+}
+
 .painpoint h3 {
 	font-size: 30px;
 	line-height: 39px;
