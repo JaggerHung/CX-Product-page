@@ -51,6 +51,10 @@ body {
 	text-decoration:none;
 }
 
+.navlink1 a:hover {
+	color: rgba(0,175,253,0.8);
+}
+
 .navlink2 a {
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
@@ -66,6 +70,9 @@ body {
 	text-decoration:none;
 }
 
+.navlink2 a:hover {
+	background: rgb(0,175,253);
+}
 /* video embeded */
 
 .video-container {
@@ -345,7 +352,7 @@ height: 100%;
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: white;
-	box-shadow: 0px 3px 10px 0px rgb(202,213,228);
+	box-shadow: 0px 3px 10px 0px rgb(235,240,247);
 	border-radius: 4px;
 	border: 1px solid rgb(0,175,253);
 }
@@ -359,7 +366,7 @@ height: 100%;
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: white;
-	box-shadow: 0px 3px 10px 0px rgb(202,213,228);
+	box-shadow: 0px 13px 20px 0px rgb(235,240,247);
 	border-radius: 4px;
 	border: 1px solid rgb(0,175,253);
 }
