@@ -689,7 +689,11 @@ height: 100%;
 
 /* FAQ page */
 
-.faq-title h1 {
+.faq-title {
+	margin-top: 80px;
+}
+
+.faq-title h2 {
 	font-size: 42px;
 	line-height: 52px;
 	letter-spacing: 1px;
@@ -1054,6 +1058,10 @@ height: 100%;
   	padding-left: 8px;
   }
 
+  .free-trial {
+  	padding: 0 30px;
+  }
+
 	.free-trial h5 {
 		padding: 0px;
 	}
@@ -1086,7 +1094,7 @@ height: 100%;
   }
 
   .function {
-  	padding: 0;
+  	padding: 0 20px;
   }
 
   .function h2 {
