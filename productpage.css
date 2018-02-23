@@ -148,6 +148,7 @@ height: 100%;
 
 .leavetime a{
 	text-decoration: none;
+	color: rgb(0,175,253);
 }
 
 .btn-leavetime {
@@ -174,6 +175,7 @@ height: 100%;
 	border-radius: 4px;
 	border: 1px solid rgb(0,175,253);
 }
+
 
 .landing-title-image {
 	padding-top: 100px;
