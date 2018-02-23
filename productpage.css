@@ -561,6 +561,7 @@ height: 100%;
 	font-size: 24px;
 	line-height: 34px;
 	letter-spacing: 0.8px;
+	padding-top: 30px;
 }
 
 .function-photo img {
@@ -931,7 +932,7 @@ height: 100%;
 
   .function-title h4 {
   	text-align: left;
-  	padding: 0 100px;
+  	padding: 20px 100px;
   }
 
   .function-media {
