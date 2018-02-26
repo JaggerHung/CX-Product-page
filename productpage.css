@@ -1221,3 +1221,45 @@ height: 100%;
 	}
   
 }
+
+
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 568px) 
+and (orientation : portrait) { 
+	.nav-link {
+		padding-left: 0px;
+	}
+
+	.navlink2 a {
+		padding: 12px 13px;
+	}
+
+	.landing-title h1 {
+		font-size: 60px;
+	}
+
+	.apply-text {
+		padding-left: 15px;
+	}
+
+	.apply-panel {
+		margin-left: 0px;
+	}
+
+	.panel-heading h4 {
+		font-size: 30px;
+	}
+
+	.function {
+		padding: 0px;
+	}
+
+	.strength p {
+		padding: 0px;
+	}
+
+	.faq-content {
+		padding: 0px;
+	}
+}
