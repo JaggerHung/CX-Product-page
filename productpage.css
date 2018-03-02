@@ -1237,6 +1237,8 @@ and (orientation : portrait) {
 
 	.landing-title h1 {
 		font-size: 60px;
+		margin: 0px;
+		text-align: center;
 	}
 
 	.apply-text {
@@ -1261,5 +1263,13 @@ and (orientation : portrait) {
 
 	.faq-content {
 		padding: 0px;
+	}
+
+	.btn-trial {
+		padding: 13px 25px;
+	}
+
+	.btn-function {
+		padding: 13px 25px;
 	}
 }
