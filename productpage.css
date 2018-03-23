@@ -682,12 +682,91 @@ height: 100%;
     width: 100%;
     height: auto;
 }
+
+.feature-hero {
+	width: 100%;
+	height: 500px;
+	background-color: rgb(235,240,247);
+}
+
+.feature-hero-title {
+	padding: 100px 100px;
+	text-align: center;
+}
+
+.feature-hero-title h1 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: rgb(0,175,253);
+}
+
+.feature-hero-title span {
+	color: rgb(240,103,83);
+}
+
+.btn-toggle-group {
+	margin-top: 50px;
+}
+
+.btn-toggle {
+	padding: 20px 100px;
+	border-radius: 30px;
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+	color: white;
+	background: rgb(202,213,228);
+}
+
+.btn-toggle:target {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+	color: white;
+	background: rgb(202,213,228);
+}
+
+.btn-toggle:hover {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+	color: white;
+	background: rgb(202,213,228);
+	border: 1px solid rgb(202,213,228);
+}
+
+.btn-toggle:focus {
+	outline: none;
+}
+
+.btn-toggle-active {
+	font-size: 24px;
+	line-height: 32px;
+	letter-spacing: 0.4px;
+	color: white;
+	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
+}
+
+.btn-toggle-active:hover {
+	opacity:0.9;
+	background: rgb(29,185,255);
+	color: white;
+	box-shadow: 0px 13px 20px 0px rgb(235,240,247);
+	border: 1px solid rgb(0,175,253);
+}
+
 .wrapper{
     display:table;
     position:relative;
     width:100%;
     height: auto;
 }
+
 .playpause {
     background-image:url(assets/playvideo.png);
     background-repeat:no-repeat;
@@ -756,7 +835,7 @@ height: 100%;
 }
 
 .title {
-	margin-top: 115px;
+	margin-top: 15px;
 }
 
 .title h2 {
@@ -820,6 +899,54 @@ height: 100%;
 	height: 300px;
 	width: 100%;
 	background: rgb(235,240,247);
+}
+
+.fb-group {
+	text-align: center;
+}
+
+.fb-group-title {
+	padding: 50px 0px;
+}
+
+.fb-group h1 {
+	font-size: 30px;
+	line-height: 39px;
+	letter-spacing: 1.1px;
+	font-weight: lighter;
+}
+
+.fb-group h4 {
+	font-size: 18px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
+	font-weight: lighter;
+}
+
+.fb-group-image img{
+	width: 100%;
+	height: auto;
+}
+
+.thumbnail {
+	margin: 10px 30px;
+	border-top: 8px solid rgb(255,86,85)
+}
+
+.feature-article {
+	margin-top: 100px;
+}
+
+.feature-article-title {
+	margin: 50px 0;
+}
+
+.feature-article-title h1 {
+	text-align: center;
+	font-size: 30px;
+	line-height: 39px;
+	letter-spacing: 1.1px;
+	font-weight: lighter;
 }
 
 
@@ -1176,6 +1303,10 @@ height: 100%;
   	margin-bottom: 50px;
   }
 
+  .thumbnail {
+  	margin: 40px 170px;
+  }
+
   /* apply page */ 
 	
 	.apply-panel {
@@ -1403,6 +1534,35 @@ height: 100%;
   	padding: 12px 20px;
   }
 
+  .feature-hero-title {
+  	padding: 50px 0px;
+  }
+
+  .feature-hero-title h1 {
+  	font-size: 34px;
+  	line-height: 44px;
+  }
+
+  .function {
+  	margin: 50px auto;
+  }
+
+  .function-media {
+  	padding: 0px 40px;
+  }
+
+  .fb-group h1{
+  	font-size: 20px;
+  }
+
+  .fb-group h4 {
+  	padding: 5px 50px;
+  }
+
+  .free-trial {
+		margin: 50px auto;
+	}
+
   /* apply page */ 
 	
 	.apply-panel {
@@ -1552,4 +1712,89 @@ and (orientation : portrait) {
 	.btn-function {
 		padding: 13px 25px;
 	}
+}
+
+.switch {
+  position: relative;
+  height: 60px;
+  width: 300px;
+  margin: 60px auto;
+  background: rgb(202, 213, 228);
+  border-radius: 30px;
+  -webkit-box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.3), 0 1px rgba(255, 255, 255, 0.1);
+}
+
+.switch-label {
+  position: relative;
+  z-index: 2;
+  float: left;
+  width: 150px;
+  line-height:60px;
+  font-size: 24px;
+  color: white;
+  text-align: center;
+  cursor: pointer;
+}
+
+.switch-label:active {
+  font-weight: bold;
+}
+
+.switch-label-off {
+  padding-left: 2px;
+}
+
+.switch-label-on {
+  padding-right: 2px;
+}
+
+
+.switch-input {
+  display: none;
+}
+.switch-input:checked + .switch-label {
+  font-weight: bold;
+  color: white;
+  text-shadow: 0 1px rgba(255, 255, 255, 0.25);
+  -webkit-transition: 0.15s ease-out;
+  -moz-transition: 0.15s ease-out;
+  -ms-transition: 0.15s ease-out;
+  -o-transition: 0.15s ease-out;
+  transition: 0.15s ease-out;
+  -webkit-transition-property: color, text-shadow;
+  -moz-transition-property: color, text-shadow;
+  -ms-transition-property: color, text-shadow;
+  -o-transition-property: color, text-shadow;
+  transition-property: color, text-shadow;
+}
+.switch-input:checked + .switch-label-on ~ .switch-selection {
+  left: 150px;
+  /* Note: left: 50%; doesn't transition in WebKit */
+}
+
+.switch-selection {
+  position: absolute;
+  z-index: 1;
+  display: block;
+  width: 150px;
+  height: 60px;
+  border-radius: 30px;
+  background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
+  -webkit-box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  box-shadow: inset 0 1px rgba(255, 255, 255, 0.5), 0 0 2px rgba(0, 0, 0, 0.2);
+  -webkit-transition: left 0.35s ease-out;
+  -moz-transition: left 0.35s ease-out;
+  -ms-transition: left 0.35s ease-out;
+  -o-transition: left 0.35s ease-out;
+  transition: left 0.35s ease-out;
+}
+.switch-blue .switch-selection {
+  background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
 }
