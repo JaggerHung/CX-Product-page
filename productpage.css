@@ -339,7 +339,7 @@ height: 100%;
 	font-size: 24px;
 	line-height: 34px;
 	letter-spacing: 0.8px;
-	padding: 10px 5px;
+	padding: 10px 0px;
 }
 
 .media {
@@ -406,7 +406,7 @@ height: 100%;
 .btn-trial {
 	opacity:0.9;
 	padding: 13px 38px;
-	margin-top: 40px;
+	margin-top: 5px;
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
@@ -423,7 +423,7 @@ height: 100%;
 .btn-trial:hover {
 	opacity:0.9;
 	padding: 13px 38px;
-	margin-top: 40px;
+	margin-top: 5px;
 	background: rgb(29,185,255);
 	font-size: 18px;
 	line-height: 24px;
@@ -437,7 +437,6 @@ height: 100%;
 .btn-cxplay {
 	opacity:0.9;
 	padding: 13px 38px;
-	margin-top: 40px;
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
@@ -447,28 +446,30 @@ height: 100%;
 	letter-spacing: 0.5px;
 	color: white;
 	box-shadow: 0px 3px 10px 0px rgb(235,240,247);
-	border-radius: 4px;
+	border-radius: 24px;
 	border: 1px solid rgb(0,175,253);
 }
 
 .btn-cxplay:hover {
 	opacity:0.9;
 	padding: 13px 38px;
-	margin-top: 40px;
 	background: rgb(29,185,255);
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
 	color: white;
 	box-shadow: 0px 13px 20px 0px rgb(235,240,247);
-	border-radius: 4px;
+	border-radius: 24px;
 	border: 1px solid rgb(0,175,253);
+}
+
+.app-store img{
+	height: auto;
+	width: 100%;
 }
 
 .btn-function {
 	padding: 13px 38px;
-	margin-left: 15px;
-	margin-top: 40px;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
@@ -480,8 +481,6 @@ height: 100%;
 
 .btn-function:hover {
 	padding: 13px 38px;
-	margin-left: 15px;
-	margin-top: 40px;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
@@ -1015,6 +1014,10 @@ height: 100%;
 	.cx-intro p {
 		margin: 0 90px;
 	}
+	
+	.intro2-button {
+		margin-bottom: 30px;
+	}
 
 	.landing-title-image {
 		padding-top: 0px;
@@ -1291,7 +1294,6 @@ height: 100%;
 
   .intro2-text p {
   	font-size: 18px;
-  	padding: 10px 0px;
   }
 
   .intro2-button {
@@ -1394,6 +1396,11 @@ height: 100%;
 
   .media2 {
   	margin-top: 10px;
+  }
+
+  .btn-cxplay {
+  	margin-top: 0px;
+  	padding: 12px 20px;
   }
 
   /* apply page */ 
