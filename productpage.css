@@ -116,6 +116,43 @@ height: 100%;
 	margin-top: 50px;
 }
 
+/***** Modal *****/
+ 
+.modal-backdrop.in {
+    filter: alpha(opacity=7);
+    opacity: 0.7;
+}
+ 
+.modal-content {
+    background: none;
+    border: 0;
+    -moz-border-radius: 0; -webkit-border-radius: 0; border-radius: 0;
+    -moz-box-shadow: none; -webkit-box-shadow: none; box-shadow: none;
+}
+ 
+.modal-body {
+    padding: 0 25px 25px 25px;
+}
+ 
+.modal-header {
+    padding: 25px 25px 15px 25px;
+    text-align: right;
+}
+ 
+.modal-header, .modal-footer {
+    border: 0;
+}
+ 
+.modal-header .close {
+    float: none;
+    margin: 0;
+    font-size: 36px;
+    color: #fff;
+    font-weight: 300;
+    text-shadow: none;
+    opacity: 1;
+}
+
 /* landingpage */
 
 .landing-title {
@@ -123,7 +160,7 @@ height: 100%;
 }
 
 .landing-title h1{
-	font-size: 72px;
+	font-size: 58px;
 	line-height: 96px;
 	letter-spacing: 1.7px;
 	color: rgb(0,175,253);
@@ -146,9 +183,26 @@ height: 100%;
 	padding-right: 30px;
 }
 
+.carousel-indicators .active {
+	background: black;
+}
+
+.carousel-indicators li {
+	background: gray;
+	opacity: 10%;
+}
+
 .leavetime a{
 	text-decoration: none;
 	color: rgb(0,175,253);
+}
+
+.leavetime span {
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.4px;
+	color: rgb(240,103,83);
+	padding: 0px 30px;
 }
 
 .btn-leavetime {
@@ -178,7 +232,7 @@ height: 100%;
 
 
 .landing-title-image {
-	padding-top: 100px;
+	padding-top: 50px;
 }
 
 .landing-title-image img {
@@ -281,6 +335,13 @@ height: 100%;
 	padding: 11px 25px;
 }
 
+.intro2-text p {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.8px;
+	padding: 10px 5px;
+}
+
 .media {
 	margin-top: 20px;
 }
@@ -325,7 +386,7 @@ height: 100%;
 }
 
 .cx-intro2 {
-	margin-top: 110px;
+	margin: 120px 0px;
 }
 
 .cx-intro2 h4 {
@@ -373,6 +434,37 @@ height: 100%;
 	border: 1px solid rgb(0,175,253);
 }
 
+.btn-cxplay {
+	opacity:0.9;
+	padding: 13px 38px;
+	margin-top: 40px;
+	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: white;
+	box-shadow: 0px 3px 10px 0px rgb(235,240,247);
+	border-radius: 4px;
+	border: 1px solid rgb(0,175,253);
+}
+
+.btn-cxplay:hover {
+	opacity:0.9;
+	padding: 13px 38px;
+	margin-top: 40px;
+	background: rgb(29,185,255);
+	font-size: 18px;
+	line-height: 24px;
+	letter-spacing: 0.5px;
+	color: white;
+	box-shadow: 0px 13px 20px 0px rgb(235,240,247);
+	border-radius: 4px;
+	border: 1px solid rgb(0,175,253);
+}
+
 .btn-function {
 	padding: 13px 38px;
 	margin-left: 15px;
@@ -397,6 +489,45 @@ height: 100%;
 	border: 1px solid rgb(0,175,253);
 	border-radius: 4px;
 	background: rgb(0,175,253);
+}
+
+.recommendation {
+	height: 600px;
+	background: rgb(0,175,253);
+	color: white;
+	text-align: center;
+}
+
+.recommendation h1 {
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.recommendation h4 {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 0.8px;
+	font-weight: lighter;
+}
+
+.recommendation-title {
+	padding: 80px;
+}
+
+.recommendation-content h1 {
+	font-size: 32px;
+	line-height: 52px;
+	letter-spacing: 0.4px;
+}
+
+.recommendation-media-body {
+	text-align: left;
+}
+
+.recommendation-media-object {
+	border-radius:50%;
 }
 
 .free-trial {
@@ -488,6 +619,62 @@ height: 100%;
 	border-radius: 4px;
 	fill: rgb(0,191,240);
 	text-decoration: none;
+}
+
+.platform-statistic {
+	height: 300px;
+	padding: 40px;
+	text-align: center;
+}
+
+.platform-statistic h1 {
+	font-size: 30px;
+	line-height: 39px;
+	letter-spacing: 1.1px;
+	font-weight: lighter;
+}
+
+.platform-statistic h2 {
+	font-size: 24px;
+	line-height: 39px;
+	letter-spacing: 1.1px;
+}
+
+.article {
+	text-align: center;
+	padding: 40px;
+}
+
+.article h1 {
+	font-size: 30px;
+	line-height: 39px;
+	letter-spacing: 1.1px;
+	font-weight: lighter;
+}
+
+.article-content {
+	padding: 40px 0px;
+}
+
+.article-content-title {
+	padding: 15px;
+}
+
+.article-content-title h1 {
+	font-size: 24px;
+	line-height: 34px;
+	letter-spacing: 1px;
+	font-weight: bold;
+}
+
+.article-content-text {
+	padding: 10px 40px;
+}
+
+.article-content-text p {
+	font-size: 19px;
+	line-height: 28px;
+	letter-spacing: 0.5px;
 }
 
 /* featurepage */
@@ -829,6 +1016,45 @@ height: 100%;
 		margin: 0 90px;
 	}
 
+	.landing-title-image {
+		padding-top: 0px;
+	}
+
+	.launch-modal {
+		padding-top: 30px;
+	}
+
+	.video-play span {
+		font-size: 14px !important;
+		line-height: 18px;
+		letter-spacing: 0.4px;
+	}
+	
+	.video-play {
+		padding-top: 30px;
+	}
+
+	.recommendation {
+		height: 1200px;
+	}
+
+	.recommendation h1 {
+		font-size: 35px;
+	}
+
+	.recommendation-content {
+		padding: 30px 0;
+	}
+
+	.media-list {
+		padding: 0 200px;
+	}
+
+	.platform-statistic {
+		height: 350px;
+	}
+
+
 
 	/* featurepage */
 
@@ -1054,18 +1280,22 @@ height: 100%;
   }
 
   .cx-intro2 h4 {
-		font-size: 18px;
-		line-height: 28px;
-		letter-spacing: 0.5px;
+		font-size: 24px;
+		line-height: 34px;
+		letter-spacing: 1px;
 		color: rgb(2,12,15);
 		text-align: center;
-		font-weight: lighter;
-		margin-top: 25px;
+		font-weight: bold;
+		margin-top: 15px;
+  }
+
+  .intro2-text p {
+  	font-size: 18px;
+  	padding: 10px 0px;
   }
 
   .intro2-button {
-  	text-align: center;
-  	padding-left: 8px;
+  	padding: 20px 0px; 
   }
 
   .free-trial {
@@ -1236,9 +1466,52 @@ and (orientation : portrait) {
 	}
 
 	.landing-title h1 {
-		font-size: 60px;
+		font-size: 40px;
 		margin: 0px;
 		text-align: center;
+	}
+
+	.video-play {
+		padding: 30px 0px;
+	}
+	
+	.video-play span {
+		font-size: 14px !important;
+		line-height: 18px;
+		letter-spacing: 0.4px;
+	}
+	
+	.cx-intro2 h4{
+		font-size: 24px;
+		line-height: 34px;
+		letter-spacing: 1px;
+		font-weight: bold;
+		text-align: left;
+	}
+
+	.recommendation {
+		height: 1000px;
+	}
+
+	.recommendation h1 {
+		font-size: 24px;
+	}
+	
+	.recommendation h4 {
+		font-size: 20px;
+	}
+
+	.platform-statistic {
+		height: 600px;
+	}
+
+	.platform-statistic h1 {
+		font-size: 28px;
+	}
+
+	.article-content-img img {
+		height: auto;
+		width: 100%;
 	}
 
 	.apply-text {
