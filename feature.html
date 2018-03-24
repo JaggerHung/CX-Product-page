@@ -212,7 +212,7 @@
               </div>
             </div>
             <div class="col-md-12" style="padding-top: 24px;">
-                <input class="btn-trial" type="button" value="了解球學Play" onclick="window.location.href='apply.html'" />
+                <input class="btn-trial btn-show-cxplay" type="button" value="了解球學Play" />
             </div>
             <div class="col-md-12 col-sm-12 title4-photo">
               <video width="100%" height="auto" autoplay loop>
@@ -499,6 +499,11 @@
                 document.getElementById("cxstats").style.display = "none";
             }
         });
+      });
+
+      $('.btn-show-cxplay').on('click', function() {
+        document.getElementById("cxplay").style.display = "block";
+        document.getElementById("cxstats").style.display = "none";
       });
     </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->

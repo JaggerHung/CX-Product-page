@@ -25,7 +25,7 @@
       <div class="container">
         <div class="row">   
           <!-- Carousel  -->
-          <div id="myCarousel" class="carousel slide" data-ride="carousel">
+          <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="6000">
             <!-- Indicators -->
             <ol class="carousel-indicators">
               <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
@@ -39,7 +39,7 @@
                   <p>球學打造新世代數據及影片紀錄工具，快速整合數據和影片，省下瑣碎的時間，專注在更重要的事上。</p>
                   <div class="leavetime row" style="margin-top: 70px;">
                     <div class="col-md-6">
-                      <a class="btn-leavetime hidden-xs" id="leaveyourtime" href="#">探索數據紀錄</a>
+                      <a class="btn-leavetime hidden-xs" id="knowmore1" href="#">探索數據紀錄</a>
                     </div>
                     <div class="col-md-6">
                       <a href="#" class="launch-modal" data-modal-id="modal-video">
@@ -69,7 +69,7 @@
                   </a>
                   <p>球學打造新世代數據及影片紀錄工具，快速整合數據和影片，省下瑣碎的時間，專注在更重要的事上。</p>
                   <div class="leavetime hidden-xs" style="margin-top: 70px;">
-                    <a class="btn-leavetime" id="leaveyourtime">探索數據紀錄</a>
+                    <a class="btn-leavetime" id="knowmore1">探索數據紀錄</a>
                   </div> 
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 landing-title-image">
@@ -83,7 +83,7 @@
                   <p>錄影上傳、直播賽事，搭配比分即時呈現，輕鬆紀錄精彩畫面。</p>
                   <div class="leavetime row" style="margin-top: 70px;">
                     <div class="col-md-6">
-                      <a class="btn-leavetime hidden-xs" id="leaveyourtime" href="#">了解球學Play</a>
+                      <a class="btn-leavetime hidden-xs" id="knowmore2" href="#">了解球學Play</a>
                     </div>
                     <div class="col-md-6">
                       <a href="#" class="launch-modal" data-modal-id="modal-video">
@@ -115,7 +115,7 @@
                   </a>
                   <p>錄影上傳、直播賽事，搭配比分即時呈現，輕鬆紀錄精彩畫面。</p>
                   <div class="leavetime hidden-xs" style="margin-top: 70px;">
-                    <a class="btn-leavetime" id="leaveyourtime">探索數據紀錄</a>
+                    <a class="btn-leavetime" id="knowmore2">了解球學Play</a>
                   </div> 
                 </div>
                 <div class="col-lg-7 col-md-7 col-sm-12 col-xs-12 landing-title-image">
@@ -469,7 +469,15 @@
     <script type='text/javascript'>
 
     $(document).ready(function() {
-        $("#leaveyourtime").click(function() {
+        $("#knowmore1").click(function() {
+          $('html, body').animate({
+         scrollTop: $("#painpoint").offset().top
+        }, 1000);
+      });
+    });
+
+    $(document).ready(function() {
+        $("#knowmore2").click(function() {
           $('html, body').animate({
          scrollTop: $("#painpoint").offset().top
         }, 1000);
