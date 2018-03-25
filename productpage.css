@@ -1005,10 +1005,6 @@ height: 100%;
 	border-radius: 4px;
 }
 
-.apply-panel {
-	margin-left: 60px;
-}
-
 
 /* FAQ page */
 
@@ -1531,7 +1527,7 @@ height: 100%;
 
   .btn-cxplay {
   	margin-top: 0px;
-  	padding: 12px 20px;
+  	padding: 10px 20px;
   }
 
   .feature-hero-title {
@@ -1566,7 +1562,7 @@ height: 100%;
   /* apply page */ 
 	
 	.apply-panel {
-		margin: 30px 30px;
+		margin: 30px 15px;
 	}
 
 	.apply-text {
@@ -1686,7 +1682,7 @@ and (orientation : portrait) {
 	}
 
 	.apply-panel {
-		margin-left: 0px;
+		margin: 30px 15px;
 	}
 
 	.panel-heading h4 {
