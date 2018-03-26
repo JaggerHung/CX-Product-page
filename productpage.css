@@ -937,6 +937,8 @@ height: 100%;
 	margin-top: 100px;
 }
 
+
+
 .feature-article-title {
 	margin: 50px 0;
 }
@@ -947,6 +949,11 @@ height: 100%;
 	line-height: 39px;
 	letter-spacing: 1.1px;
 	font-weight: lighter;
+}
+
+.feature-article a {
+	color: #00affd;
+	text-decoration:none;
 }
 
 
