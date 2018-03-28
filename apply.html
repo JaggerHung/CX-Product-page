@@ -19,6 +19,14 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
+  <script>(function(d, s, id) {
+      var js, fjs = d.getElementsByTagName(s)[0];
+      if (d.getElementById(id)) return;
+      js = d.createElement(s); js.id = id;
+      js.src = 'https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.12';
+      fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+</script>
   <body>
   <!--  
     <div class="navbar1">
@@ -134,15 +142,127 @@
             </div>
           </div>
           <div class="apply">
+            <button>下一步 <span><img src="assets/iconRight.png"></span></button>
+          </div>
+        </div>
+        <!--
+        <div class="col-md-4 col-sm-8 panel apply-panel">          
+          <div class="panel-heading">
+            <div class="row"> 
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <h4>免費體驗</h4>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-6 price">
+                <h4>NT$ 0元</h4>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12" style="margin-bottom: 30px;">
+                <h4>讓我們更好地協助你</h4>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 form-question">
+                <label for="questions">會紀錄攻守數據的比賽類型為何?(可複選)</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="練習賽" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  練習賽
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="友誼賽" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  友誼賽
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="一般盃賽、聯盟" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  盃賽、聯盟
+                  </label>
+                  <br>
+                  <input class="form-check-input" type="checkbox" value="聯賽(JHBL,HBL,UBA)" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  聯賽(JHBL,HBL,UBA)
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="都沒有" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  都沒有
+                  </label>
+                </div>
+              </div>
+              <div class="col-md-12 col-sm-12 col-xs-12 form-question">
+                <label for="questions">會錄比賽影片的比賽類型為何?(可複選)</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" value="練習賽" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  練習賽
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="友誼賽" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  友誼賽
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="一般盃賽、聯盟" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  盃賽、聯盟
+                  </label>
+                  <br>
+                  <input class="form-check-input" type="checkbox" value="聯賽(JHBL,HBL,UBA)" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  聯賽(JHBL,HBL,UBA)
+                  </label>
+                  <input class="form-check-input" type="checkbox" value="都沒有" id="defaultCheck1">
+                  <label class="form-check-label" for="defaultCheck1">
+                  都沒有
+                  </label>
+                </div>
+                <div class="form-group form-question">
+                  <label for="exampleFormControlTextarea1">備註</label>
+                  <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="apply">
             <button>送出 <span><img src="assets/iconRight.png"></span></button>
           </div>
         </div>
+        <div class="col-md-4 col-sm-8 panel apply-panel apply-panel-complete">          
+          <div class="panel-heading">
+            <div class="row"> 
+              <div class="col-md-6 col-sm-6 col-xs-6">
+                <h4>免費體驗</h4>
+              </div>
+              <div class="col-md-6 col-sm-6 col-xs-6 price">
+                <h4>NT$ 0元</h4>
+              </div>
+            </div>
+          </div>
+          <div class="panel-body">
+            <div class="row">
+              <div class="col-md-12 col-sm-12 col-xs-12" style="margin: 30px 0px;">
+                <img src="assets/icon-check-form.png">
+                <div class="apply-panel-complete-text">
+                    <h4>表單已送出</h4>
+                    <p>感謝你的細心閱讀與填寫資訊</p>
+                    <p>我們將盡快與你聯繫</p>
+                    <p>請留意你的來電與通訊軟體</p>
+                    <button class="btn btn-lg btn-copylink" id="btn-copylink" onClick="sharelink('#p1');">複製連結</button>
+                    <h5>點擊複製連結分享給其他教練</h5> 
+                    <p id="p1" style="display: none;">https://choxue.com/products</p>
+                    <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fchoxue.com%2Fproducts&amp;src=sdkpreparse" class="fb-xfbml-parse-ignore"><img src="assets/fb.png" style="height: 25px; width: auto;"></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      -->
+
         <div class="col-sm-12 col-xs-12 hidden-lg hidden-md faq"">
             <p>碰到問題了嗎？</p>
             <p>查看<a href="faq.html" style="color: rgb(0,175,253); text-decoration: none;">FAQ</a>或聯繫我們，我們期待能為你服務。</p>
         </div>
       </div>  
     </div>
+
+
     <footer class="footer" style="margin-top: 160px;">
       <div class="container">
         <div class="footer-link">
@@ -158,6 +278,15 @@
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script type="text/javascript">
+      function sharelink(element) {
+        var $temp = $("<input>");
+        $("body").append($temp);
+        $temp.val($(element).text()).select();
+        document.execCommand("copy");
+        $temp.remove();
+      }
+    </script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>

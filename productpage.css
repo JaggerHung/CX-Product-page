@@ -366,6 +366,11 @@ height: 100%;
 	height: auto;
 }
 
+.media-coach-photo img {
+	width: 100px;
+	height: auto;
+}
+
 .cx-intro1 {
 	margin-top: 70px;
 }
@@ -434,38 +439,67 @@ height: 100%;
 	border: 1px solid rgb(0,175,253);
 }
 
+.intro2-button {
+	padding: 0px;
+}
+
 .btn-cxplay {
 	opacity:0.9;
-	padding: 11px 25px;
+	background-image: url(assets/itunes-app-store-logo.png);
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* Standard syntax (must be last) */
-	font-size: 18px;
-	line-height: 24px;
+	font-size: 20px;
+	line-height: 35px;
+	text-decoration: none;
 	letter-spacing: 0.5px;
 	color: white;
 	box-shadow: 0px 3px 10px 0px rgb(235,240,247);
-	border-radius: 5px;
+	border-radius: 6px;
 	border: 1px solid rgb(0,175,253);
+	width:35%;
+	height: 58px;
+	float: left;
+	margin-left: 15px;
 }
 
 .btn-cxplay:hover {
 	opacity:0.9;
-	padding: 11px 25px;
+	background-image: url(assets/itunes-app-store-logo.png);
 	background: rgb(29,185,255);
-	font-size: 18px;
-	line-height: 24px;
+	text-decoration: none;
+	font-size: 20px;
+	line-height: 35px;
 	letter-spacing: 0.5px;
 	color: white;
 	box-shadow: 0px 13px 20px 0px rgb(235,240,247);
-	border-radius: 5px;
+	border-radius: 6px;
 	border: 1px solid rgb(0,175,253);
+	width: 35%;
+	height: 58px;
+	float: left;
+	margin-left: 15px;
 }
 
-.app-store img{
+.btn-app-store {
+	width: 40%;
+	float: left;
+}
+
+.btn-app-cxplay {
+	width: 40%;
+	float: left;
+}
+
+.btn-app-store img {
+	width: 90%;
 	height: auto;
-	width: 100%;
+}
+
+.btn-app-cxplay img {
+	width: 90%;
+	height: auto;
 }
 
 .btn-function {
@@ -516,8 +550,8 @@ height: 100%;
 }
 
 .recommendation-content h1 {
-	font-size: 32px;
-	line-height: 52px;
+	font-size: 20px;
+	line-height: 32px;
 	letter-spacing: 0.4px;
 }
 
@@ -790,7 +824,7 @@ height: 100%;
 }
 
 .strength p {
-	font-size: 18px;
+	font-size: 17px;
 	line-height: 28px;
 	letter-spacing: 0.5px;
 	text-align: center;
@@ -961,6 +995,47 @@ height: 100%;
 
 .apply-page-content {
 	margin-top: 100px;
+}
+
+.apply-panel-complete {
+	text-align: center;
+}
+
+.apply-panel-complete-text {
+	margin-top: 30px;
+}
+.apply-panel-complete-text h4{
+	font-size: 24px;
+	line-height: 33px;
+	letter-spacing: 1px;
+	color: rgb(0,175,253);
+	margin-bottom: 30px;
+}
+
+.apply-panel-complete-text h5{
+	font-size: 14px;
+	line-height: 18px;
+	letter-spacing: 0.4px;
+	color: rgb(135,147,166);
+}
+
+.form-question {
+	margin: 20px 0px;
+}
+
+.form-check label{
+	font-weight: lighter;
+}
+
+.btn-copylink {
+	border: 1px solid rgb(0,175,253);
+	color: rgb(0,175,253);
+	margin: 30px 0px;
+}
+
+.btn-copylink:hover {
+	border: 1px solid rgb(0,175,253);
+	color: rgb(0,175,253);
 }
 
 .apply-text {
@@ -1172,7 +1247,7 @@ height: 100%;
 	}
 
 	.recommendation h1 {
-		font-size: 35px;
+		font-size: 25px;
 	}
 
 	.recommendation-content {
@@ -1185,6 +1260,10 @@ height: 100%;
 
 	.platform-statistic {
 		height: 350px;
+	}
+
+	.recommendation-content-text {
+		padding: 0px 120px;
 	}
 
 
@@ -1225,6 +1304,7 @@ height: 100%;
 
   .intro2-photo {
   	text-align: center;
+  	margin: 20px 0px;
   }
 
   .intro2-text {
@@ -1426,6 +1506,11 @@ height: 100%;
 		margin-top: 15px;
   }
 
+  .intro2-photo {
+  	text-align: center;
+  	margin: 20px 0px;
+  }
+
   .intro2-text p {
   	font-size: 18px;
   }
@@ -1527,14 +1612,13 @@ height: 100%;
   .media-body p {
   	font-size: 12px;
   }
+	
+	.media {
+  	padding: 0px 30px
+  }
 
   .media2 {
   	margin-top: 10px;
-  }
-
-  .btn-cxplay {
-  	margin-top: 0px;
-  	padding: 10px 20px;
   }
 
   .feature-hero-title {
@@ -1636,13 +1720,13 @@ and (orientation : portrait) {
 	}
 
 	.landing-title h1 {
-		font-size: 40px;
+		font-size: 30px;
 		margin: 0px;
 		text-align: center;
 	}
 
 	.video-play {
-		padding: 30px 0px;
+		padding: 30px 80px;
 	}
 	
 	.video-play span {
@@ -1659,16 +1743,32 @@ and (orientation : portrait) {
 		text-align: left;
 	}
 
+	.intro2-photo {
+  	text-align: center;
+  	margin: 20px 0px;
+  }
+
+  .recommendation-title {
+  	padding: 20px 40px;
+  }
+
 	.recommendation {
-		height: 1000px;
+		height: 1400px;
 	}
 
 	.recommendation h1 {
-		font-size: 24px;
+		font-size: 20px;
+	}
+	
+	.recommendation-content {
+		margin: 20px 0px;
+	}
+	.recommendation-content h1 {
+		line-height: 40px;
 	}
 	
 	.recommendation h4 {
-		font-size: 20px;
+		font-size: 15px;
 	}
 
 	.platform-statistic {
@@ -1715,6 +1815,19 @@ and (orientation : portrait) {
 	.btn-function {
 		padding: 13px 25px;
 	}
+
+	.feature-hero-title {
+		padding: 100px 0px;
+	}
+
+	.feature-hero-title h1 {
+		line-height: 30px;
+		font-size: 30px;
+	}
+
+	.media {
+  	padding: 0px 30px
+  }
 }
 
 .switch {
