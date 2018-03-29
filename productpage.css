@@ -7,6 +7,10 @@ body {
   color: rgb(2,12,15);
 }
 
+a:focus, a:hover {
+	text-decoration: none;
+}
+
 /* navbar */
 
 .navbar1 {
@@ -181,6 +185,10 @@ height: 100%;
 	color: rgb(2,12,15);
 	margin-top: 20px;
 	padding-right: 30px;
+}
+
+.launch-modal {
+	text-decoration: none;
 }
 
 .carousel-indicators .active {
@@ -600,7 +608,7 @@ height: 100%;
 .panel {
 	box-shadow: 0px 6px 20px 5px rgba(86,101,116,0.17);
 	padding: 0;
-	margin: 0px 25px;
+	margin: 0px;
 	border: 0;
 }
 
@@ -997,6 +1005,10 @@ height: 100%;
 
 .apply-page-content {
 	margin-top: 100px;
+}
+
+.apply-panel {
+	margin: 0px 25px;
 }
 
 .apply-panel-complete {
@@ -1717,6 +1729,10 @@ height: 100%;
 		text-decoration: none;
 	}
 
+	.landing-title {
+		text-align: center;
+	}
+
 	.cx-intro2 h4 {
 		text-align: left;
 	}
@@ -1796,7 +1812,7 @@ and (orientation : portrait) {
 	}
 	
 	.recommendation h4 {
-		font-size: 15px;
+		font-size: 21px;
 	}
 
 	.platform-statistic {
