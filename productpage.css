@@ -350,6 +350,11 @@ height: 100%;
 	padding: 10px 0px;
 }
 
+.intro2-text img {
+	width: 50px;
+	height: auto;
+}
+
 .media {
 	margin-top: 20px;
 }
@@ -418,7 +423,8 @@ height: 100%;
 
 .btn-trial {
 	opacity:0.9;
-	padding: 13px 38px;
+	width: 150px;
+	height: 50px;
 	margin-top: 5px;
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Opera 11.1 to 12.0 */
@@ -435,7 +441,8 @@ height: 100%;
 
 .btn-trial:hover {
 	opacity:0.9;
-	padding: 13px 38px;
+	width: 150px;
+	height: 50px;
 	margin-top: 5px;
 	background: rgb(29,185,255);
 	font-size: 18px;
@@ -490,28 +497,37 @@ height: 100%;
 	margin-left: 15px;
 }
 
-.btn-app-store {
-	width: 40%;
-	float: left;
+.btn-show-cxplay-2 {
+	width: 135px;
+	height: 40px;
+	margin-top: 0px;
+	font-size: 15px;
+}
+
+.btn-show-cxplay-2:hover {
+	width: 135px;
+	height: 40px;
+	margin-top: 0px;
+	font-size: 15px;
 }
 
 .btn-app-cxplay {
-	width: 40%;
 	float: left;
 }
 
-.btn-app-store img {
-	width: 90%;
-	height: auto;
-}
-
-.btn-app-cxplay img {
-	width: 90%;
-	height: auto;
+.btn-app-store {
+	display:inline-block;
+	overflow:hidden;
+	background:url(https://linkmaker.itunes.apple.com/assets/shared/badges/zh-cht/appstore-lrg.svg) no-repeat;
+	width:135px;
+	height:40px;
+	background-size:contain;
+	margin-left: 20px;
 }
 
 .btn-function {
-	padding: 13px 38px;
+	width: 150px;
+	height: 50px;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
@@ -522,7 +538,8 @@ height: 100%;
 }
 
 .btn-function:hover {
-	padding: 13px 38px;
+	width: 150px;
+	height: 50px;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
@@ -1850,10 +1867,6 @@ and (orientation : portrait) {
 
 	.faq-content {
 		padding: 0px;
-	}
-
-	.btn-trial {
-		padding: 13px 25px;
 	}
 
 	.btn-function {
