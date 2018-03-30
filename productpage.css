@@ -986,6 +986,11 @@ height: 100%;
 	font-weight: lighter;
 }
 
+.fb-group-image {
+	box-shadow: 0px 6px 20px 5px rgba(86,101,116,0.17);
+	padding: 0px;
+}
+
 .fb-group-image img{
 	width: 100%;
 	height: auto;
