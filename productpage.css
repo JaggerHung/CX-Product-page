@@ -1226,7 +1226,14 @@ height: 100%;
 	}
 
 }
+@media (min-width: 768px) and (max-width: 1024px) and (orientation : landscape) {
+	.landing-title h1 {
+  	font-size: 42px;
+  	line-height: 52px;
+  	letter-spacing: 1px;
+  }
 
+}
 @media (min-width: 768px) and (max-width: 1024px) and (orientation : portrait) {
 
 	/* nav bar */
@@ -1789,9 +1796,10 @@ and (orientation : portrait) {
 	}
 
 	.landing-title h1 {
-		font-size: 30px;
+		font-size: 25px;
 		margin: 0px;
 		text-align: center;
+		letter-spacing: 0.5px;
 	}
 
 	.video-play {
@@ -1869,6 +1877,10 @@ and (orientation : portrait) {
 		padding: 0px;
 	}
 
+	.strength1 {
+		margin: 25px 0;
+	}
+
 	.strength p {
 		padding: 0px;
 	}
@@ -1910,6 +1922,10 @@ and (orientation : landscape) {
 
 	.function {
 		padding: 0px !important;
+	}
+
+	.landing-title h1 {
+		font-size: 55px;
 	}
 }
 
