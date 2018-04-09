@@ -423,7 +423,7 @@ height: 100%;
 
 .btn-trial {
 	opacity:0.9;
-	width: 150px;
+	width: 155px;
 	height: 50px;
 	margin-top: 5px;
 	background: -webkit-linear-gradient(to right, rgb(0,191,240) , rgb(0,175,253)); /* For Safari 5.1 to 6.0 */
@@ -441,7 +441,7 @@ height: 100%;
 
 .btn-trial:hover {
 	opacity:0.9;
-	width: 150px;
+	width: 155px;
 	height: 50px;
 	margin-top: 5px;
 	background: rgb(29,185,255);
@@ -526,8 +526,9 @@ height: 100%;
 }
 
 .btn-function {
-	width: 150px;
+	width: 155px;
 	height: 50px;
+	margin-top: 5px;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
@@ -538,8 +539,9 @@ height: 100%;
 }
 
 .btn-function:hover {
-	width: 150px;
+	width: 155px;
 	height: 50px;
+	margin-top: 5px;
 	font-size: 18px;
 	line-height: 24px;
 	letter-spacing: 0.5px;
@@ -572,6 +574,10 @@ height: 100%;
 
 .recommendation-title {
 	padding: 80px;
+}
+
+.recommendation-content {
+	padding: 0px 20px;
 }
 
 .recommendation-content h1 {
@@ -697,7 +703,7 @@ height: 100%;
 }
 
 .platform-statistic h2 {
-	font-size: 24px;
+	font-size: 22px;
 	line-height: 39px;
 	letter-spacing: 1.1px;
 }
@@ -769,7 +775,7 @@ height: 100%;
 	color: rgb(240,103,83);
 }
 
-.btn-toggle-group {
+.toggle-group {
 	margin-top: 50px;
 }
 
@@ -875,7 +881,6 @@ height: 100%;
 
 .function {
 	margin-top: 150px;
-	padding: 0px 250px;
 }
 
 .function h2 {
@@ -1335,7 +1340,7 @@ height: 100%;
 
   .strength3 {
   	text-align: center;
-  	padding: 0 220px;
+  	margin: 0 200px;
   }
   
   .title2 {
@@ -1562,8 +1567,12 @@ height: 100%;
   }
 
   .intro2-button {
-  	padding: 20px 0px; 
+  	padding: 20px 20px 20px 0px; 
   }
+
+  .recommendation {
+		height: 1200px !important;
+	}
 
   .free-trial {
   	padding: 0 30px;
@@ -1780,6 +1789,11 @@ height: 100%;
 	.media {
 		padding: 10px 150px;
 	}
+
+	.feature-hero {
+		height: 550px;
+	}
+	
 }
 
 
